@@ -4,14 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d3e9385-7b1b-4848-bfac-91eb49b1a68e" name="Changes" comment="Correcion Path Interfaces para forms">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7d3e9385-7b1b-4848-bfac-91eb49b1a68e" name="Changes" comment="Fix Path Controles">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/Logica/AgendaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
@@ -37,11 +44,21 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ec.edu.epn.Logica" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ec.edu.epn.Main" />
@@ -71,7 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669503290958</updated>
       <workItem from="1669505755233" duration="603000" />
-      <workItem from="1669506364176" duration="1694000" />
+      <workItem from="1669506364176" duration="4260000" />
     </task>
     <task id="LOCAL-00001" summary="Agregar Depedendecies Junit y Mockito">
       <created>1669505878963</created>
@@ -122,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669507922880</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Fix Path Controles">
+      <created>1669508178643</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669508178643</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +169,7 @@
     <MESSAGE value="Jdk 8 Correccion Pom.xml" />
     <MESSAGE value="Correccion de path de Archivos" />
     <MESSAGE value="Correcion Path Interfaces para forms" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correcion Path Interfaces para forms" />
+    <MESSAGE value="Fix Path Controles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix Path Controles" />
   </component>
 </project>
