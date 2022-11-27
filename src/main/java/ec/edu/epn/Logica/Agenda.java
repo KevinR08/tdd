@@ -14,10 +14,22 @@ public class Agenda {
         contSalas=1;
     }
 
+    public int IdSalaSegunMocion (int tipoMocion){
+        for(int i=0; i<listaSalas.size();i++){
+
+
+            }
+        return tipoMocion;
+    }
+
     public void mostrarSalas(){
         for(int i=0; i<listaSalas.size();i++){
             System.out.println(listaSalas.get(i));
         }
+    }
+
+    public void mostrarInfoSala(int idSala){
+        listaSalas.get(idSala).toString();
     }
 
     public int getContSalas() {

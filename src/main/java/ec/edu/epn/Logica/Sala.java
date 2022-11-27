@@ -37,6 +37,11 @@ public class Sala {
     public void aumentarNum(){
         numParticipantes++;
     }
+
+    public int getTipoMocion(){
+        return  tipoMocion;
+
+    }
     @Override
     public String toString() {
         return
