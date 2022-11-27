@@ -1,4 +1,4 @@
-package Controladores;
+package ec.edu.epn.Controladores;
 
 public interface ControladorMainW {
 

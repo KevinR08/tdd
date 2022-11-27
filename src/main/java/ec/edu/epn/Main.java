@@ -1,7 +1,8 @@
 package ec.edu.epn;
 
-import Interfaces.LoginWindow;
 
+
+import ec.edu.epn.Interfaces.LoginWindow;
 import ec.edu.epn.Logica.Agenda;
 import ec.edu.epn.Logica.Participante;
 
@@ -17,7 +18,7 @@ public class Main {
         Participante participante = new Participante(1, "Juan", "El destructor", "OFN");
 
         //Proponer al usuario las opciones disponibles
-        mostrarMenu(agendaSalas, participante);
+         mostrarMenu(agendaSalas, participante);
 
 
 

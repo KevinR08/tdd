@@ -1,4 +1,4 @@
-package Interfaces;
+package ec.edu.epn.Interfaces;
 
 import javax.swing.*;
 

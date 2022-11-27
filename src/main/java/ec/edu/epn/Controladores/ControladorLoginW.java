@@ -1,6 +1,6 @@
-package Controladores;
+package ec.edu.epn.Controladores;
 
-import Logica.Participante;
+import ec.edu.epn.Logica.Participante;
 
 public interface ControladorLoginW {
 

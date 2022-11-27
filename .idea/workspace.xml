@@ -4,20 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d3e9385-7b1b-4848-bfac-91eb49b1a68e" name="Changes" comment="Jdk 8 Correccion Pom.xml">
+    <list default="true" id="7d3e9385-7b1b-4848-bfac-91eb49b1a68e" name="Changes" comment="Correccion de path de Archivos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Logica/Agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Logica/Agenda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Logica/Conexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Logica/Conexion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Logica/Debate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Logica/Debate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Logica/Mocion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Logica/Mocion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Logica/Participante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Logica/Participante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Logica/RegistroIndividual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Logica/RegistroIndividual.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Logica/Registro_Ronda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Logica/Registro_Ronda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Logica/Resultados_Debate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Logica/Resultados_Debate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Logica/Ronda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Logica/Ronda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Logica/Ronda_Debate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Logica/Ronda_Debate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Logica/Sala.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Logica/Sala.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Controladores/ControladorLoginW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Controladores/ControladorLoginW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Controladores/ControladorMainW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Controladores/ControladorMainW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Interfaces/LoginWindow.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Interfaces/LoginWindow.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Interfaces/LoginWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Interfaces/LoginWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Interfaces/MainWindow.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Interfaces/MainWindow.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Interfaces/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Interfaces/MainWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Interfaces/SelectWindow.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Interfaces/SelectWindow.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Interfaces/SelectWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Interfaces/SelectWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,15 +39,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ec.edu.epn.Main" />
@@ -81,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669503290958</updated>
       <workItem from="1669505755233" duration="603000" />
-      <workItem from="1669506364176" duration="974000" />
+      <workItem from="1669506364176" duration="1527000" />
     </task>
     <task id="LOCAL-00001" summary="Agregar Depedendecies Junit y Mockito">
       <created>1669505878963</created>
@@ -118,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669506623380</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Correccion de path de Archivos">
+      <created>1669507408453</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669507408453</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +144,7 @@
     <MESSAGE value="Agregar Depedendecies Junit y Mockito" />
     <MESSAGE value="migracion projecto a Maven" />
     <MESSAGE value="Jdk 8 Correccion Pom.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jdk 8 Correccion Pom.xml" />
+    <MESSAGE value="Correccion de path de Archivos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correccion de path de Archivos" />
   </component>
 </project>
