@@ -1,4 +1,4 @@
-package Logica;
+package ec.edu.epn.Logica;
 
 public class Registro_Ronda {
     private String idRegistro;

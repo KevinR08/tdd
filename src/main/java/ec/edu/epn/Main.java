@@ -1,6 +1,9 @@
+package ec.edu.epn;
+
 import Interfaces.LoginWindow;
-import Logica.Agenda;
-import Logica.Participante;
+
+import ec.edu.epn.Logica.Agenda;
+import ec.edu.epn.Logica.Participante;
 
 import java.util.Scanner;
 

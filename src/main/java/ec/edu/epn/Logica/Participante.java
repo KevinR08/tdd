@@ -1,4 +1,4 @@
-package Logica;
+package ec.edu.epn.Logica;
 
 import java.awt.*;
 import java.text.DateFormat;
