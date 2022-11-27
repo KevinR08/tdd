@@ -2,7 +2,7 @@ package ec.edu.epn;
 
 
 
-import ec.edu.epn.Interfaces.LoginWindow;
+
 import ec.edu.epn.Logica.Agenda;
 import ec.edu.epn.Logica.Participante;
 
@@ -54,10 +54,5 @@ public class Main {
     }
 
 
-    private static void star(){
-        LoginWindow dialog = new LoginWindow();
-        dialog.pack();
-        dialog.setVisible(true);
-        System.exit(0);
-    }
+
 }
