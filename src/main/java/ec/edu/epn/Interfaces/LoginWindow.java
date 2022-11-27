@@ -1,6 +1,6 @@
 package ec.edu.epn.Interfaces;
 
-import Controladores.ControladorLoginW;
+import ec.edu.epn.Controladores.ControladorLoginW;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

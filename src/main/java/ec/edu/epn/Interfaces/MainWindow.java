@@ -1,6 +1,7 @@
 package ec.edu.epn.Interfaces;
 
-import Controladores.ControladorMainW;
+
+import  ec.edu.epn.Controladores.ControladorMainW;
 
 import javax.swing.*;
 
