@@ -17,6 +17,7 @@ public class AgendaParametersTest {
     @Before
     public  void Set_Up(){
         agenda= new Agenda();
+        agenda.crearListBase();
 
 
     }
@@ -34,15 +35,16 @@ public class AgendaParametersTest {
     @Parameterized.Parameters
     public static Iterable<Object[]>parameters() {
         List<Object[]> objects = new ArrayList<Object[]>();
-        objects.add(new Object[]{01, 01, 01});
-        objects.add(new Object[]{02, 01, 02});
-        objects.add(new Object[]{03, 01, 03});
-        objects.add(new Object[]{03, 02, 02});
-        objects.add(new Object[]{02, 03, 02});
-        objects.add(new Object[]{02, 03, 02});
-        objects.add(new Object[]{05, 03, 05});
-        objects.add(new Object[]{02, 05, 02});
-        objects.add(new Object[]{04, 04, 04});
+        //Mocion ; Sala ; Excepted Sala
+        objects.add(new Object[]{16, 01, 01});
+        objects.add(new Object[]{14, 02, 02});
+        objects.add(new Object[]{25, 03, 03});
+        objects.add(new Object[]{24, 04, 04});
+        objects.add(new Object[]{22, 05, 05});
+        objects.add(new Object[]{11, 06, 06});
+        objects.add(new Object[]{12, 07, 07});
+        objects.add(new Object[]{15, 8, 8});
+        objects.add(new Object[]{20, 9, 9});
         return objects;
     }
 
