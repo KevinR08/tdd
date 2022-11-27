@@ -25,7 +25,9 @@ public class Sala {
         return tipoMocion;
     }
 
-
+    public String getnombreSala(){
+        return nombreSala;
+    }
 
     public int getListaRegistroLenght() {
         return listaRegistros.size();

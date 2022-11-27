@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d3e9385-7b1b-4848-bfac-91eb49b1a68e" name="Changes" comment="Creacion de metodos para pasar la prueba">
+    <list default="true" id="7d3e9385-7b1b-4848-bfac-91eb49b1a68e" name="Changes" comment="Prueba Parametrizada con exito">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Logica/Agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Logica/Agenda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Logica/Sala.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Logica/Sala.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/Logica/AgendaParametersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/Logica/AgendaParametersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/Logica/AgendaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/Logica/AgendaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,7 @@
       <recent name="ec.edu.epn.Logica" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.AgendaParametersTest.given_parameters_when_consultar_then_ok">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ec.edu.epn.Main" />
       <module name="tdd" />
@@ -91,8 +91,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AgendaParametersTest.given_parameters_when_consultar_then_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.edu.epn.Logica.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.edu.epn.Logica" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.Logica.AgendaParametersTest" />
+      <option name="METHOD_NAME" value="given_parameters_when_consultar_then_ok" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AgendaTest.given_parameter_IdSala_mostrar_Info" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.edu.epn.Logica.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.edu.epn.Logica" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.Logica.AgendaTest" />
+      <option name="METHOD_NAME" value="given_parameter_IdSala_mostrar_Info" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AgendaTest.given_parameters_when_consultar_then_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.edu.epn.Logica.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.edu.epn.Logica" />
+      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.Logica.AgendaTest" />
+      <option name="METHOD_NAME" value="given_parameters_when_consultar_then_ok" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AgendaParametersTest.given_parameters_when_consultar_then_ok" />
+        <item itemvalue="JUnit.AgendaTest.given_parameters_when_consultar_then_ok" />
+        <item itemvalue="JUnit.AgendaTest.given_parameter_IdSala_mostrar_Info" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.AgendaParametersTest" />
       </list>
@@ -172,7 +223,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669519460271</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Metodos para Test y Creacion de salas para test igual">
+      <created>1669521980507</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669521980507</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Prueba Parametrizada con exito">
+      <created>1669522751426</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1669522751426</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,17 +262,8 @@
     <MESSAGE value="Correcion Path Interfaces para forms" />
     <MESSAGE value="Fix Path Controles" />
     <MESSAGE value="Creacion de metodos para pasar la prueba" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creacion de metodos para pasar la prueba" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ec/edu/epn/Main.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Metodos para Test y Creacion de salas para test igual" />
+    <MESSAGE value="Prueba Parametrizada con exito" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prueba Parametrizada con exito" />
   </component>
 </project>

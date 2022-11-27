@@ -12,25 +12,17 @@ import static org.junit.Assert.*;
 public class AgendaParametersTest {
     // Definir los parametros
     private int idSala, TipoMocion, expected;
-
     Agenda agenda;
     @Before
     public  void Set_Up(){
         agenda= new Agenda();
         agenda.crearListBase();
-
-
     }
     @Test
     public  void given_parameters_when_consultar_then_ok(){
         int actual = agenda.buscarIdSalaPorTipoMocion(TipoMocion);
         assertEquals(expected,actual);
     }
-
-
-
-
-
     //9 pruebas a ejecutar simultaneamente
     @Parameterized.Parameters
     public static Iterable<Object[]>parameters() {
@@ -42,21 +34,15 @@ public class AgendaParametersTest {
         objects.add(new Object[]{24, 04, 04});
         objects.add(new Object[]{22, 05, 05});
         objects.add(new Object[]{11, 06, 06});
-        objects.add(new Object[]{12, 07, 07});
+        objects.add(new Object[]{12, 07, 8}); // Se cambia para ver error forzado y verifar funcionamiento
         objects.add(new Object[]{15, 8, 8});
         objects.add(new Object[]{20, 9, 9});
         return objects;
     }
-
-
-
     //Construsctor de busqueda por parametros
-
     public AgendaParametersTest (int idMocion, int idSala, int expected){
         this.TipoMocion=idMocion;
         this.idSala=idSala;
         this.expected=expected;
     }
-
-
 }
