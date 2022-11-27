@@ -21,6 +21,11 @@ public class Sala {
 
     }
 
+    public int getTipoMocion() {
+        return tipoMocion;
+    }
+
+
 
     public int getListaRegistroLenght() {
         return listaRegistros.size();
@@ -38,17 +43,18 @@ public class Sala {
         numParticipantes++;
     }
 
-    public int getTipoMocion(){
-        return  tipoMocion;
 
-    }
     @Override
     public String toString() {
-        return
-                "  ID Sala=" + idSala +
-                "  NombreSala='" + nombreSala +
-                "  Horario=" + horario +
-                "  Numero de Participantes=" + (numParticipantes+1);
+        return "Sala{" +
+                "idSala=" + idSala +
+                ", listaRegistros=" + listaRegistros +
+                ", nombreSala='" + nombreSala + '\'' +
+                ", horario=" + horario +
+                ", tipoMocion=" + tipoMocion +
+                ", numParticipantes=" + numParticipantes +
+                ", quorum=" + quorum +
+                '}';
     }
 }
 

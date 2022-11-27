@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d3e9385-7b1b-4848-bfac-91eb49b1a68e" name="Changes" comment="Fix Path Controles">
+    <list default="true" id="7d3e9385-7b1b-4848-bfac-91eb49b1a68e" name="Changes" comment="Creacion de metodos para pasar la prueba">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Logica/Agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Logica/Agenda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Logica/Sala.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Logica/Sala.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/Logica/AgendaParametersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/Logica/AgendaParametersTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +62,7 @@
       <recent name="ec.edu.epn.Logica" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AgendaParametersTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ec.edu.epn.Main" />
       <module name="tdd" />
@@ -91,8 +93,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AgendaParametersTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.AgendaParametersTest" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669508178643</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Creacion de metodos para pasar la prueba">
+      <created>1669519460271</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669519460271</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +196,18 @@
     <MESSAGE value="Correccion de path de Archivos" />
     <MESSAGE value="Correcion Path Interfaces para forms" />
     <MESSAGE value="Fix Path Controles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix Path Controles" />
+    <MESSAGE value="Creacion de metodos para pasar la prueba" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creacion de metodos para pasar la prueba" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ec/edu/epn/Main.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

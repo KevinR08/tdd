@@ -17,6 +17,8 @@ public class Main {
 
         Participante participante = new Participante(1, "Juan", "El destructor", "OFN");
 
+        agendaSalas.crearListBase();
+        agendaSalas.mostrarSalas();
         //Proponer al usuario las opciones disponibles
          mostrarMenu(agendaSalas, participante);
 

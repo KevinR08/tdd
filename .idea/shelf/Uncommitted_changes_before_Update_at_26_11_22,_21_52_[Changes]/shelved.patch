@@ -1,0 +1,117 @@
+Index: src/test/java/ec/edu/epn/Logica/AgendaParametersTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package ec.edu.epn.Logica;\n\nimport static org.junit.Assert.*;\n\npublic class AgendaParametersTest {\n\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/ec/edu/epn/Logica/AgendaParametersTest.java b/src/test/java/ec/edu/epn/Logica/AgendaParametersTest.java
+--- a/src/test/java/ec/edu/epn/Logica/AgendaParametersTest.java	(revision e72141b85f66cb773eb935239477182801e00a9f)
++++ b/src/test/java/ec/edu/epn/Logica/AgendaParametersTest.java	(date 1669517482394)
+@@ -1,7 +1,31 @@
+ package ec.edu.epn.Logica;
+ 
++import org.junit.Test;
++import org.junit.runner.RunWith;
++import org.junit.runners.Parameterized;
++
++import java.util.Collection;
++import java.util.Iterator;
++import java.util.List;
++import java.util.ListIterator;
++
+ import static org.junit.Assert.*;
+-
++@RunWith(value= Parameterized.class)
+ public class AgendaParametersTest {
++    // Definir los parametros
++    private int idSala; idMocion;
++
++    public static Iterable<Object>parameters(){
++        List <Object[]> objects = new List<Object[]>() {
++        objects.add(new Object[]{01,03 ,01});
++        objects.add(new Object[]{01,03 ,01});
++        objects.add(new )
++
++    }
++
++    @Test
++    public  void given_parameters_when_consultar_then_ok(){
++        Agenda agenda= new Agenda();
++    }
+ 
+ }
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"7d3e9385-7b1b-4848-bfac-91eb49b1a68e\" name=\"Changes\" comment=\"Fix Path Controles\">\n      <change afterPath=\"$PROJECT_DIR$/src/test/java/ec/edu/epn/Logica/AgendaTest.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"JUnit4 Test Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"PUSH_TAGS\">\n      <GitPushTagMode>\n        <option name=\"argument\" value=\"--tags\" />\n        <option name=\"title\" value=\"All\" />\n      </GitPushTagMode>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2I6Y1Xfxld5FMzJeG8WxdCZYYYI\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"ASKED_SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"WebServerToolWindowFactoryState\": \"false\",\n    \"com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary\": \"JUnit4\",\n    \"com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4\": \"\",\n    \"project.structure.last.edited\": \"Project\",\n    \"project.structure.proportion\": \"0.15\",\n    \"project.structure.side.proportion\": \"0.0\"\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"CreateTestDialog.Recents.Supers\">\n      <recent name=\"\" />\n    </key>\n    <key name=\"CreateTestDialog.RecentsKey\">\n      <recent name=\"ec.edu.epn.Logica\" />\n    </key>\n  </component>\n  <component name=\"RunManager\">\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"ec.edu.epn.Main\" />\n      <module name=\"tdd\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"ec.edu.epn.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Application.Main\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"7d3e9385-7b1b-4848-bfac-91eb49b1a68e\" name=\"Changes\" comment=\"\" />\n      <created>1669503290958</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1669503290958</updated>\n      <workItem from=\"1669505755233\" duration=\"603000\" />\n      <workItem from=\"1669506364176\" duration=\"4260000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"Agregar Depedendecies Junit y Mockito\">\n      <created>1669505878963</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1669505878963</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"Agregar Depedendecies Junit y Mockito\">\n      <created>1669505919218</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1669505919218</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"Agregar Depedendecies Junit y Mockito\">\n      <created>1669506026796</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1669506026796</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"migracion projecto a Maven\">\n      <created>1669506402149</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1669506402149</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"Jdk 8 Correccion Pom.xml\">\n      <created>1669506623380</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1669506623380</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"Correccion de path de Archivos\">\n      <created>1669507408453</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1669507408453</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"Correcion Path Interfaces para forms\">\n      <created>1669507922880</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1669507922880</updated>\n    </task>\n    <task id=\"LOCAL-00008\" summary=\"Fix Path Controles\">\n      <created>1669508178643</created>\n      <option name=\"number\" value=\"00008\" />\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1669508178643</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"9\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"Agregar Depedendecies Junit y Mockito\" />\n    <MESSAGE value=\"migracion projecto a Maven\" />\n    <MESSAGE value=\"Jdk 8 Correccion Pom.xml\" />\n    <MESSAGE value=\"Correccion de path de Archivos\" />\n    <MESSAGE value=\"Correcion Path Interfaces para forms\" />\n    <MESSAGE value=\"Fix Path Controles\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Fix Path Controles\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision e72141b85f66cb773eb935239477182801e00a9f)
++++ b/.idea/workspace.xml	(date 1669517407315)
+@@ -4,9 +4,9 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="7d3e9385-7b1b-4848-bfac-91eb49b1a68e" name="Changes" comment="Fix Path Controles">
+-      <change afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/Logica/AgendaTest.java" afterDir="false" />
++    <list default="true" id="7d3e9385-7b1b-4848-bfac-91eb49b1a68e" name="Changes" comment="Creacion de las clases AgendaTest y AgendaParametersTest para realizar las pruebas descritas">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/Logica/AgendaParametersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/Logica/AgendaParametersTest.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -88,7 +88,7 @@
+       <option name="presentableId" value="Default" />
+       <updated>1669503290958</updated>
+       <workItem from="1669505755233" duration="603000" />
+-      <workItem from="1669506364176" duration="4260000" />
++      <workItem from="1669506364176" duration="5569000" />
+     </task>
+     <task id="LOCAL-00001" summary="Agregar Depedendecies Junit y Mockito">
+       <created>1669505878963</created>
+@@ -146,7 +146,28 @@
+       <option name="project" value="LOCAL" />
+       <updated>1669508178643</updated>
+     </task>
+-    <option name="localTasksCounter" value="9" />
++    <task id="LOCAL-00009" summary="Establecer las pruebas a realizar para posterior desarollo. Escribir Prueba que Falle 1 , escribir prueba que falle por 2 , escribir prueba que falle 3, escribir prueba 4 para que falle 4 &#10;Se agregan como comentarios para posterios documentación">
++      <created>1669516169559</created>
++      <option name="number" value="00009" />
++      <option name="presentableId" value="LOCAL-00009" />
++      <option name="project" value="LOCAL" />
++      <updated>1669516169559</updated>
++    </task>
++    <task id="LOCAL-00010" summary="División de tipos de Pruebas">
++      <created>1669516318693</created>
++      <option name="number" value="00010" />
++      <option name="presentableId" value="LOCAL-00010" />
++      <option name="project" value="LOCAL" />
++      <updated>1669516318693</updated>
++    </task>
++    <task id="LOCAL-00011" summary="Creacion de las clases AgendaTest y AgendaParametersTest para realizar las pruebas descritas">
++      <created>1669516633894</created>
++      <option name="number" value="00011" />
++      <option name="presentableId" value="LOCAL-00011" />
++      <option name="project" value="LOCAL" />
++      <updated>1669516633894</updated>
++    </task>
++    <option name="localTasksCounter" value="12" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -170,6 +191,9 @@
+     <MESSAGE value="Correccion de path de Archivos" />
+     <MESSAGE value="Correcion Path Interfaces para forms" />
+     <MESSAGE value="Fix Path Controles" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Fix Path Controles" />
++    <MESSAGE value="Establecer las pruebas a realizar para posterior desarollo. Escribir Prueba que Falle 1 , escribir prueba que falle por 2 , escribir prueba que falle 3, escribir prueba 4 para que falle 4 &#10;Se agregan como comentarios para posterios documentación" />
++    <MESSAGE value="División de tipos de Pruebas" />
++    <MESSAGE value="Creacion de las clases AgendaTest y AgendaParametersTest para realizar las pruebas descritas" />
++    <option name="LAST_COMMIT_MESSAGE" value="Creacion de las clases AgendaTest y AgendaParametersTest para realizar las pruebas descritas" />
+   </component>
+ </project>
+\ No newline at end of file
