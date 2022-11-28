@@ -1,0 +1,131 @@
+Index: src/main/java/ec/edu/epn/Logica/Agenda.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package ec.edu.epn.Logica;\r\n\r\nimport java.util.ArrayList;\r\n\r\npublic class Agenda {\r\n    private ArrayList listaSalas = new ArrayList<Sala>();\r\n    private int contSalas;\r\n    public void agendarSala(Sala sala){\r\n        listaSalas.add(sala);\r\n        contSalas++;\r\n    }\r\n\r\n    public Agenda() {\r\n        contSalas=1;\r\n    }\r\n\r\n    public int IdSalaSegunMocion (int tipoMocion){\r\n        for(int i=0; i<listaSalas.size();i++){\r\n\r\n\r\n            }\r\n        return tipoMocion;\r\n    }\r\n\r\n    public void mostrarSalas(){\r\n        for(int i=0; i<listaSalas.size();i++){\r\n            System.out.println(listaSalas.get(i));\r\n        }\r\n    }\r\n\r\n    public void mostrarInfoSala(int idSala){\r\n        listaSalas.get(idSala).toString();\r\n    }\r\n\r\n    public int getContSalas() {\r\n        return contSalas;\r\n    }\r\n\r\n    public ArrayList getListaSalas() {\r\n        return listaSalas;\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/ec/edu/epn/Logica/Agenda.java b/src/main/java/ec/edu/epn/Logica/Agenda.java
+--- a/src/main/java/ec/edu/epn/Logica/Agenda.java	(revision 4bca67960229bb41fff8d85668afc7f02eea3685)
++++ b/src/main/java/ec/edu/epn/Logica/Agenda.java	(date 1669520134782)
+@@ -5,6 +5,14 @@
+ public class Agenda {
+     private ArrayList listaSalas = new ArrayList<Sala>();
+     private int contSalas;
++
++    public boolean existenSalas(){
++        boolean band = false;
++        if(!listaSalas.isEmpty()){
++            band=true;
++        }
++        return false;
++    }
+     public void agendarSala(Sala sala){
+         listaSalas.add(sala);
+         contSalas++;
+@@ -16,8 +24,6 @@
+ 
+     public int IdSalaSegunMocion (int tipoMocion){
+         for(int i=0; i<listaSalas.size();i++){
+-
+-
+             }
+         return tipoMocion;
+     }
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"7d3e9385-7b1b-4848-bfac-91eb49b1a68e\" name=\"Changes\" comment=\"Fix Path Controles\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/ec/edu/epn/Logica/Agenda.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/ec/edu/epn/Logica/Agenda.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/ec/edu/epn/Logica/AgendaParametersTest.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/ec/edu/epn/Logica/AgendaParametersTest.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"JUnit4 Test Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"PUSH_TAGS\">\r\n      <GitPushTagMode>\r\n        <option name=\"argument\" value=\"--tags\" />\r\n        <option name=\"title\" value=\"All\" />\r\n      </GitPushTagMode>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2I6Y1Xfxld5FMzJeG8WxdCZYYYI\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,\r\n    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,\r\n    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,\r\n    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,\r\n    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CreateTestDialog.Recents.Supers\">\r\n      <recent name=\"\" />\r\n    </key>\r\n    <key name=\"CreateTestDialog.RecentsKey\">\r\n      <recent name=\"ec.edu.epn.Logica\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"JUnit.AgendaParametersTest\">\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"ec.edu.epn.Main\" />\r\n      <module name=\"tdd\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"ec.edu.epn.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"AgendaParametersTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"tdd\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"ec.edu.epn.Logica.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"ec.edu.epn.Logica\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"ec.edu.epn.Logica.AgendaParametersTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"JUnit.AgendaParametersTest\" />\r\n        <item itemvalue=\"Application.Main\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"7d3e9385-7b1b-4848-bfac-91eb49b1a68e\" name=\"Changes\" comment=\"\" />\r\n      <created>1669503290958</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1669503290958</updated>\r\n      <workItem from=\"1669505755233\" duration=\"603000\" />\r\n      <workItem from=\"1669506364176\" duration=\"4260000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Agregar Depedendecies Junit y Mockito\">\r\n      <created>1669505878963</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669505878963</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Agregar Depedendecies Junit y Mockito\">\r\n      <created>1669505919218</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669505919218</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Agregar Depedendecies Junit y Mockito\">\r\n      <created>1669506026796</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669506026796</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"migracion projecto a Maven\">\r\n      <created>1669506402149</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669506402149</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Jdk 8 Correccion Pom.xml\">\r\n      <created>1669506623380</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669506623380</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Correccion de path de Archivos\">\r\n      <created>1669507408453</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669507408453</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Correcion Path Interfaces para forms\">\r\n      <created>1669507922880</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669507922880</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"Fix Path Controles\">\r\n      <created>1669508178643</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669508178643</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"9\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Agregar Depedendecies Junit y Mockito\" />\r\n    <MESSAGE value=\"migracion projecto a Maven\" />\r\n    <MESSAGE value=\"Jdk 8 Correccion Pom.xml\" />\r\n    <MESSAGE value=\"Correccion de path de Archivos\" />\r\n    <MESSAGE value=\"Correcion Path Interfaces para forms\" />\r\n    <MESSAGE value=\"Fix Path Controles\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Fix Path Controles\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 4bca67960229bb41fff8d85668afc7f02eea3685)
++++ b/.idea/workspace.xml	(date 1669521013817)
+@@ -4,10 +4,9 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="7d3e9385-7b1b-4848-bfac-91eb49b1a68e" name="Changes" comment="Fix Path Controles">
++    <list default="true" id="7d3e9385-7b1b-4848-bfac-91eb49b1a68e" name="Changes" comment="Conflictos de interfaz eliminados">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Logica/Agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/edu/epn/Logica/Agenda.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/ec/edu/epn/Logica/AgendaParametersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ec/edu/epn/Logica/AgendaParametersTest.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -39,19 +38,20 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "WebServerToolWindowFactoryState": "false",
++    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
++    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "project.structure.last.edited": "Project",
++    "project.structure.proportion": "0.15",
++    "project.structure.side.proportion": "0.0"
+   }
+-}</component>
++}]]></component>
+   <component name="RecentsManager">
+     <key name="CreateTestDialog.Recents.Supers">
+       <recent name="" />
+@@ -60,7 +60,7 @@
+       <recent name="ec.edu.epn.Logica" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="JUnit.AgendaParametersTest">
++  <component name="RunManager" selected="Application.Main">
+     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="ec.edu.epn.Main" />
+       <module name="tdd" />
+@@ -85,14 +85,31 @@
+       <option name="PACKAGE_NAME" value="ec.edu.epn.Logica" />
+       <option name="MAIN_CLASS_NAME" value="ec.edu.epn.Logica.AgendaParametersTest" />
+       <option name="TEST_OBJECT" value="class" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="AgendaTest.existenSalas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="tdd" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="ec.edu.epn.Logica.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="ec.edu.epn.Logica" />
++      <option name="MAIN_CLASS_NAME" value="ec.edu.epn.Logica.AgendaTest" />
++      <option name="METHOD_NAME" value="existenSalas" />
++      <option name="TEST_OBJECT" value="method" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Application.Main" />
++        <item itemvalue="JUnit.AgendaTest.existenSalas" />
+         <item itemvalue="JUnit.AgendaParametersTest" />
+-        <item itemvalue="Application.Main" />
+       </list>
+     </recent_temporary>
+   </component>
